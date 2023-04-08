@@ -1,0 +1,51 @@
+.banner {
+  position: relative;
+  margin: auto;
+  max-width: 80rem;
+  max-height: fit-content;
+}
+
+#banner-video {
+  max-width: 80rem;
+  max-height: 40rem;
+  filter: brightness(90%);
+  border-radius: 10px;
+  z-index: 1;
+  visibility: hidden;
+}
+.box-sliding{
+  margin-top: 30px;
+  width: 100vw auto;
+  height: 500px;
+ background: transparent linear-gradient(67deg, #ee798a 0%, #ECC7C1 45%, #EFCAC4 58%, #E4BDB8 70%, #42A8FE 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+ 
+}
+.coro1{
+  height: 500px   ;
+ margin-left: 750px;
+}
+
+.hr-one {
+  color: rgb(156, 161, 159);
+}
+
+.best-sellers {
+  margin: 2rem auto;
+  max-width: 80rem;
+}
+
+.product-overview {
+  position: relative;
+  margin: 7rem auto;
+  max-width: 90rem;
+  height: 30rem;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  #banner-video {
+    max-width: 28rem;
+    margin: 2rem 1rem 12rem;
+  }
+}
